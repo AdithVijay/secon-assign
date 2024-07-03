@@ -1,0 +1,62 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .logo{
+    height: 78px;
+    transition: transform 1s; 
+ }
+ .img1{
+    transition: transform 1s; 
+ }
+ .img1:hover{
+    transform: scale(1.35);
+ }
+ .m1{
+    transition: transform 1s; 
+ }
+ .m1:hover{
+    transform: scale(1.05);
+ }
+
+.logo:hover {
+    transform: scale(1.35); /* scale-105 translates to 105% of the original size */
+}
+ body {
+    font-family: 'Lato', sans-serif;
+}
+ .main{
+    
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .img1{
+    height: 60px;
+ }
+ .nav2{
+    height: 54px;
+    width: 100%;
+    background-color: #353535;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn1{
+    border: none;
+    color: white;
+    background-color: #353535;
+ }
+ .btn1:hover{
+    color: red;
+    transition: all ease-in-out 0.30s;
+    cursor: pointer;
+
+ }
+  .btn2:hover {
+            background-color:  rgb(193, 116, 0);
+            cursor: pointer;
+        }
